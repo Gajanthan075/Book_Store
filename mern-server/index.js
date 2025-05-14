@@ -20,7 +20,7 @@ app.listen(port, () => {
 //mongodb configuration
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const uri =
-  "mongodb+srv://mern-book-store:pWd6QV7ALHExbTw8@cluster0.air5j95.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "Mpongodblink";
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
   serverApi: {
